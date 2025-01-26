@@ -4,8 +4,8 @@ function multiplicaNumeros(multiplicadorA: number, multiplicadorB: number):numbe
     return multiplicadorA * multiplicadorB;
 }
 
-function saudação(nome:string):void {
-    console.log('Ola ' + nome);
+function saudação(nome:string):string {
+    return "Ola " + nome;
 }
 
 saudação(nome);
